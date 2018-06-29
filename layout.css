@@ -1,0 +1,15 @@
+html{
+  background-color: #e5e5e5;
+}
+.image-grid{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 15px;
+  padding-left: 15px;
+}
+
+.image-grid div img{
+  max-width: 400px;
+  max-height: auto;
+}
