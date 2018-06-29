@@ -5,6 +5,7 @@ html{
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: 400px 400px 400px;
+  /*grid-template: auto auto / repeat(3, 400px);*/
   grid-gap: 15px;
   padding-left: 15px;
 }
