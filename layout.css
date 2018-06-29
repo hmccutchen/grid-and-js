@@ -1,16 +1,32 @@
 html{
-  background-color: #e5e5e5;
+  background-color: #000;
+  color: #ffff;
+  font-family: sans-serif;
 }
 .image-grid{
   display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 400px 400px;
   /*grid-template: auto auto / repeat(3, 400px);*/
   grid-gap: 15px;
-  padding-left: 15px;
+
+
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
 }
 
 .image-grid div img{
   max-width: 400px;
   max-height: auto;
+  border: 3px solid white;
+
+}
+
+.headline{
+  text-align: center;
+  font-size: 4.8vw;
+
 }
